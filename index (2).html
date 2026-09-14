@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faris Azisya Ramadhan | Frontend Developer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#beranda" class="nav-logo">Faris<span>.</span></a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item"><a href="#beranda" class="nav-link active">Beranda</a></li>
+        <li class="nav-item"><a href="#tentang" class="nav-link">Tentang</a></li>
+        <li class="nav-item"><a href="#layanan" class="nav-link">Layanan</a></li>
+        <li class="nav-item"><a href="#proyek" class="nav-link">Proyek</a></li>
+        <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
+      </ul>
+
+      <a href="#kontak" class="btn-talk">Hubungi Saya</a>
+
+      <div class="btn-nav" id="btnNav">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="beranda">
+    <div class="hero-container">
+
+      <div class="hero-content">
+        <span class="badge">👋 Halo, perkenalkan</span>
+
+        <h1 class="hero-title">Faris Azisya <span class="highlight">Ramadhan</span></h1>
+
+        <h2 class="hero-subtitle">Saya seorang <span class="typing" id="typing"></span><span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          Saya adalah seorang pelajar SMK kelas 11 jurusan RPL (Rekayasa Perangkat Lunak).
+          Saya tertarik dengan dunia teknologi, terutama dalam hal pemrograman dan pembuatan
+          website. Saya memiliki hobi membaca komik karena menurut saya membaca komik bisa
+          menjadi hiburan sekaligus menambah imajinasi.
+        </p>
+
+        <div class="hero-stats">
+          <div class="stat-box">
+            <h3>11</h3>
+            <p>Kelas RPL</p>
+          </div>
+          <div class="stat-box">
+            <h3>3+</h3>
+            <p>Bahasa Dipelajari</p>
+          </div>
+          <div class="stat-box">
+            <h3>∞</h3>
+            <p>Semangat Belajar</p>
+          </div>
+        </div>
+
+        <div class="hero-btns">
+          <a href="#kontak" class="btn btn-primary">Hubungi Saya →</a>
+          <a href="#tentang" class="btn btn-secondary">Tentang Saya</a>
+        </div>
+
+      </div>
+
+      <div class="hero-image-container">
+        <div class="image-wrapper">
+          <img src="gojo.gif" alt="GIF perkenalan" class="avatar-card gif-perkenalan">
+          
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- TENTANG -->
+  <section class="about" id="tentang">
+    <div class="section-head">
+      <h2>Tentang Saya</h2>
+      <span class="line"></span>
+    </div>
+
+    <div class="about-container">
+      <div class="about-image">
+        <img src="rama.jpg" alt="Foto Rama" class="about-avatar">
+      </div>
+
+      <div class="about-text">
+        <p>
+          Saya adalah seorang pelajar dari SMK NUSANTARA 1<br>
+          Kelas 11<br>
+          Jurusan Rekayasa Perangkat Lunak.
+        </p>
+        <p>
+          Selain belajar coding, saya juga punya hobi membaca komik. Bagi saya, komik
+          bukan cuma hiburan, tapi juga sumber imajinasi yang sering membantu saya berpikir
+          lebih kreatif, termasuk saat mendesain tampilan website.
+        </p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-icon">🎓</div>
+            <div>
+              <h4>Pendidikan</h4>
+              <p>SMK NUSANTARA 1<br>Rekayasa Perangkat Lunak (RPL)</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div>
+              <h4>Fokus Belajar</h4>
+              <p>Pemrograman & Pengembangan Website</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">📖</div>
+            <div>
+              <h4>Hobi</h4>
+              <p>Membaca Komik</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAYANAN / WHAT I DO -->
+  <section class="services" id="layanan">
+    <div class="section-head">
+      <h2>Apa yang Saya Pelajari</h2>
+      <span class="line"></span>
+    </div>
+
+    <div class="services-container">
+      <div class="service-card">
+        <div class="service-icon">&lt;/&gt;</div>
+        <h3>Web Development</h3>
+        <p>Membuat website sederhana menggunakan HTML, CSS, JavaScript, dan MySQL dari nol.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span><span>MySQL</span></div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <h3>Programming</h3>
+        <p>Mempelajari dasar-dasar pemrograman dan mencoba membuat program sederhana.</p>
+        <div class="tags"><span>Logika</span><span>Algoritma</span></div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📚</div>
+        <h3>Belajar & Berkembang</h3>
+        <p>Terus belajar tentang teknologi dan meningkatkan kemampuan di bidang RPL.</p>
+        <div class="tags"><span>Konsisten</span><span>Semangat</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYEK -->
+  <section class="projects" id="proyek">
+    <div class="section-head">
+      <h2>Projek Latihan Dan Hasil Karya Saya</h2>
+      <span class="line"></span>
+      <p>Beberapa project kecil yang sedang/pernah saya buat untuk belajar</p>
+    </div>
+
+    <div class="projects-container">
+      <div class="project-card">
+        <img src="htmlcssjs.png" alt="Tampilan proyek HTML CSS dan JavaScript" class="project-thumb thumb-1">
+        <div class="project-body">
+          <h3>Proyek HTML, CSS, dan JavaScript</h3>
+          <p>Proyek latihan membuat tampilan website menggunakan HTML, CSS, dan JavaScript.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="login.png" alt="Tampilan halaman login" class="project-thumb thumb-2">
+        <div class="project-body">
+          <h3>Halaman Login</h3>
+          <p>Halaman login sederhana untuk latihan membuat form dan mengatur tampilan menggunakan HTML &amp; CSS.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="portofolio.png" alt="Tampilan website portofolio" class="project-thumb thumb-3">
+        <div class="project-body">
+          <h3>Website Portofolio</h3>
+          <p>Website portofolio pribadi ini, dibuat untuk belajar struktur halaman yang rapi.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section class="contact" id="kontak">
+    <div class="section-head">
+      <h2>Hubungi Saya</h2>
+      <span class="line"></span>
+      <p>Jika ingin menghubungi saya, silakan melalui email atau form di bawah ini</p>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-card">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>farisazisyaramadhan@gmail.com</p>
+            <a href="mailto:farisazisyaramadhan@gmail.com">Kirim Email</a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">🎓</div>
+          <div>
+            <h4>Status</h4>
+            <p>Pelajar</p>
+            <a href="#tentang">Lihat Detail</a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">💬</div>
+          <div>
+            <h4>Jurusan</h4>
+            <p>Rekayasa Perangkat Lunak (RPL)</p>
+            <a href="#skill">Lihat Skill</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label>Nama Kamu</label>
+          <input type="text" placeholder="Nama lengkap" required>
+        </div>
+        <div class="form-group">
+          <label>Email Kamu</label>
+          <input type="email" placeholder="email@contoh.com" required>
+        </div>
+        <div class="form-group">
+          <label>Subjek</label>
+          <input type="text" placeholder="Tentang apa pesan ini?" required>
+        </div>
+        <div class="form-group">
+          <label>Pesan</label>
+          <textarea rows="5" placeholder="Tulis pesan kamu di sini..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Kirim Pesan ✈</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="toast" id="toast"></div>
+
+  <footer class="footer">
+    <p>&copy; 2026 Faris Azisya Ramadhan. Dibuat dengan HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
